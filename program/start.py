@@ -61,7 +61,7 @@ async def start_(client: Client, message: Message):
 ┣ ₪ *video&musicplayer* 
 ┣ ₪ *Iam Very Fast vc player 
 ┗━━━━━━━━━━━━━━━━━
-""",
+"""
         reply_markup=InlineKeyboardMarkup(
             [
                 [
