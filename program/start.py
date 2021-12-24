@@ -53,15 +53,15 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) 
-ʜᴏɪ
+        f""" {message.from_user.mention()} !**\n
+💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) """
+ʜᴏɪ,
 ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
-*𝐇𝐄𝐘! {},*
+*𝐇𝐄𝐘! {}*
 ┏━━━━━━━━━━━━━━━━
 ┣ ₪ *Uptime:* `{}`
 ┣ ₪ `{}` *users, across* `{}` *chats.*
-┗━━━━━━━━━━━━━━━━━ ,
+┗━━━━━━━━━━━━━━━━━ """,
       
         reply_markup=InlineKeyboardMarkup(
             [
