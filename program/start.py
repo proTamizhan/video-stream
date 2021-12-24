@@ -62,7 +62,7 @@ async def start_(client: Client, message: Message):
 ┣ ₪ *Uptime:* `{}`
 ┣ ₪ `{}` *users, across* `{}` *chats.*
 ┗━━━━━━━━━━━━━━━━━ 
-""",
+"""
       
         reply_markup=InlineKeyboardMarkup(
             [
