@@ -52,16 +52,14 @@ async def _human_time_duration(seconds):
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_text(
-        """✨ **Welcome {message.from_user.mention()} !**\n
+    await message.reply_text("""✨ **Welcome {message.from_user.mention()} !**\n
 💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **ʜᴏɪ,
 ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
 *𝐇𝐄𝐘! {},*
 ┏━━━━━━━━━━━━━━━━
 ┣ ₪ *video&musicplayer* 
 ┣ ₪ *Iam Very Fast vc player 
-┗━━━━━━━━━━━━━━━━ 
-           """,
+┗━━━━━━━━━━━━━━━━ """,
 
         reply_markup=InlineKeyboardMarkup(
             [
