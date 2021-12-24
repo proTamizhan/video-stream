@@ -53,8 +53,7 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""
-ʜᴏɪ
+        f"""Hoi
 ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! 
 *𝐇𝐄𝐘! {}*
 ┏━━━━━━━━━━━━━━━━
